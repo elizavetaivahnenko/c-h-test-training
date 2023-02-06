@@ -1,0 +1,53 @@
+$colorText: #77838f;
+$softPrimary:#377dff;
+
+.services__column{
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+.services-item{
+	padding: 64px 18px;
+	border: 1px solid #e7eaf3;
+	border-radius: 5px;
+	text-align: center;
+	flex: 0 1 28%;
+	
+	
+	&__icon{
+		max-width: 77px;
+		min-height: 65px;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	&__title{
+		font-weight: 500;
+		font-size: 1.5rem;
+		line-height: 1.5;
+		margin-bottom: 20px;
+
+	}
+	&__text{
+		color: #77838f;
+		font-size: 17px;
+		line-height: 1.7;
+		font-weight: 400;
+		margin-bottom: 30px;
+	}
+	&__button{
+		display: inline-block;
+		background-color: $softPrimary;
+		border-radius: 5px;
+		border: none;
+		cursor: pointer;
+	}
+	&__button p{
+		color: #e7eaf3;
+		margin: 15px;
+		font-size: 1rem;
+		line-height: 1.5;
+		font-weight: 500;
+	}
+
+}

@@ -1,0 +1,14 @@
+body{
+	height: 100%;
+	line-height: 1;
+	font-style: 16px;
+	color: black;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	&__container{
+		max-width: 1170px;
+		margin: 0 auto;
+	}
+}
